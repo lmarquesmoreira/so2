@@ -22,6 +22,9 @@ Exemplo:<br/>
 <br/><code>time ./fork 2000 8</code>
 <br/><code>time ./thread 2000 8</code>
 
+O valor que é valido para o timer é o valor de "user".<br/>
+A máquina utilizada foi um core i7, 6Gb de RAM
+
 <table>
   <tr>
     <th> </th>
@@ -34,14 +37,14 @@ Exemplo:<br/>
     <td> Fork </td>
     <td> 0m0.280s </td>
     <td> 0m0.360s </td>
-    <td> 0m0.800s </td>
-    <td> 0m1.144s </td>
+    <td> 0m0.736s </td>
+    <td> 0m1.192s </td>
   </tr>  
   <tr>
     <td> Threads </td>
-    <td> 0 </td>
-    <td> 0 </td>
-    <td> 0 </td>
-    <td> 0 </td>
+    <td> 5m9.448s </td>
+    <td> 5m9.416s </td>
+    <td> 4m54.716s </td>
+    <td> 4m31.676s </td>
   </tr>  
 </table>
