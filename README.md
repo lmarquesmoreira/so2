@@ -4,11 +4,11 @@ Trabalhos de SO2 - 2014.1
 Bom galera, o de MPI, eu o Fred ainda não terminamos ele 100% :/ <br />Então em breve já vamos disponibilizar ((:
 
 Para executar é o de sempre:
-<code> gcc forkMatriz.c -o fork -w</code><br/>
+<code>gcc forkMatriz.c -o fork -w</code><br/>
 Para o de Thread tem que adicionar -lpthread:
-<code> gcc threadMatriz.c -o thread -lpthread -w</code><br/>
+<code>gcc threadMatriz.c -o thread -lpthread -w</code><br/>
 E para executar é simples também
-<code> ./fork 2000 8 </code>
+<code>./fork 2000 8 </code>
 
 
 Testando com o time
@@ -28,10 +28,10 @@ A máquina utilizada foi um core i7, 6Gb de RAM
 <table>
   <tr>
     <th> </th>
-    <th> 1 </th>
-    <th> 2 </th>
-    <th> 4 </th>
-    <th> 8 </th>
+    <th> 1 proc</th>
+    <th> 2 proc</th>
+    <th> 4 proc</th>
+    <th> 8 proc</th>
   </tr>
   <tr>
     <td> Fork </td>
